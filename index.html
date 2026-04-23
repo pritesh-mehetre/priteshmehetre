@@ -1,11 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pritesh Mehetre | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pritesh Mehetre | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header img {
+  width: 130px;
+  border-radius: 50%;
+  border: 3px solid #00d4ff;
+  box-shadow: 0 0 25px #00d4ff;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 15px;
+}
+
+.badge {
+  background: #00d4ff;
+  color: #000;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: #ccc;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px 0;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px #00d4ff;
+}
+
+h2 {
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  color: #ccc;
+}
+
+.skills span {
+  display: inline-block;
+  background: #00d4ff;
+  color: #000;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
+</style>
 </head>
+
 <body>
-    <h1>Pritesh Mehetre</h1>
-    <p>Software Developer</p>
-    <p>Welcome to my portfolio website.</p>
+
+<header>
+  <img src="your-photo.jpg">
+  <h1>Pritesh Mehetre <span class="badge">✔ Verified</span></h1>
+  <p class="subtitle">Senior Software Developer & Team Leader</p>
+  <p class="subtitle">ReactJS | Laravel | Java | AWS | MySQL</p>
+  <p class="subtitle">Pune, Maharashtra, India</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🚀 About Me</h2>
+<p>
+Senior Software Developer & Team Leader with 5+ years of experience in building scalable web applications using ReactJS, Laravel, Java, MySQL, and AWS.
+
+Hands-on experience with AWS services including EC2, RDS, Route 53, Load Balancers, Auto Scaling, IAM, and S3. Strong in database management and SQL optimization.
+</p>
+</div>
+
+<div class="card">
+<h2>💼 Experience</h2>
+
+<div class="exp">
+<strong>Senior Software Developer & Team Leader</strong><br>
+Novacred Pvt Ltd<br>
+<small>2023 - Present</small>
+
+<ul>
+<li>Led a team of developers and ensured timely delivery</li>
+<li>Designed and implemented scalable ReactJS applications</li>
+<li>Developed backend systems using Laravel</li>
+<li>Integrated REST APIs for frontend-backend communication</li>
+<li>Worked extensively with AWS (EC2, S3, RDS, Load Balancer, Auto Scaling, IAM, Route 53)</li>
+<li>Handled deployment, scaling, and infrastructure issues on AWS</li>
+<li>Optimized MySQL queries and improved database performance</li>
+<li>Identified and fixed bugs across the application lifecycle</li>
+</ul>
+</div>
+
+<div class="exp">
+<strong>Senior Software Developer</strong><br>
+ZapFin Teknologies (DocBoyz)<br>
+<small>2021 - 2023</small>
+
+<ul>
+<li>Built scalable web applications using ReactJS and Laravel</li>
+<li>Managed AWS infrastructure and deployments</li>
+<li>Developed and integrated APIs</li>
+<li>Improved performance of applications and databases</li>
+</ul>
+</div>
+
+<div class="exp">
+<strong>Software Developer</strong><br>
+Creintech Solutions<br>
+<small>2018 - 2021</small>
+</div>
+
+</div>
+
+<div class="card">
+<h2>👨‍💼 Leadership</h2>
+<ul>
+<li>Led cross-functional teams for scalable applications</li>
+<li>Mentored junior developers</li>
+<li>Managed project timelines and delivery</li>
+<li>Ensured code quality and best practices</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>⚡ Technical Skills</h2>
+
+<p><strong>Languages:</strong></p>
+<div class="skills">
+<span>Java</span>
+<span>Core Java</span>
+<span>PHP (Laravel)</span>
+<span>ReactJS</span>
+</div>
+
+<p><strong>Databases:</strong></p>
+<div class="skills">
+<span>MySQL</span>
+</div>
+
+<p><strong>Cloud Platforms:</strong></p>
+<div class="skills">
+<span>AWS EC2</span>
+<span>RDS</span>
+<span>Route 53</span>
+<span>Load Balancer</span>
+<span>Auto Scaling</span>
+<span>IAM</span>
+<span>S3</span>
+</div>
+
+<p><strong>Frameworks:</strong></p>
+<div class="skills">
+<span>Spring</span>
+<span>Struts</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>🎓 Education</h2>
+<p>
+Sinhgad Institute of Business Administration and Research<br>
+Master's Degree (2014–2016)
+</p>
+</div>
+
+<div class="card">
+<h2>📞 Contact</h2>
+<p>Phone: 9665189633</p>
+<p>Email: priteshmehetre11@gmail.com</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Pritesh Mehetre
+</footer>
+
 </body>
 </html>
